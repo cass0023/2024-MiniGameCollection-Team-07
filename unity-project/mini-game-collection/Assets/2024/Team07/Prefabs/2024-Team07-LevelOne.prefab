@@ -619,7 +619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2296206681429484423}
   m_Layer: 0
-  m_Name: LevelOne 1
+  m_Name: 2024-Team07-LevelOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
