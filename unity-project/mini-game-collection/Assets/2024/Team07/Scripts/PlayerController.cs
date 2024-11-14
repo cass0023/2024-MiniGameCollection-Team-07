@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace  MiniGameCollection.Games2024.Team07
+namespace MiniGameCollection.Games2024.Team07
 {
     public class PlayerController : MonoBehaviour
     {
