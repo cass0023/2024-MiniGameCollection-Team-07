@@ -21,8 +21,7 @@ What emotional and gameplay goals are you striving for with this design?​
 Emotional goals –Fulfillment, Connection,​
 Gameplay goals-Fast paced, Intuitive​
 
-Why?​
-We want our game to be engaging and grab our players attention while still remaining in the 60 second time limit. By having levels to complete within the timer, it gives replay value to the game inspiring the player to retry and beat their last record. We will have the levels randomly generate each time as well to add more randomness to the game.​
+Why?​ We want our game to be engaging and grab our players attention while still remaining in the 60 second time limit. By having levels to complete within the timer, it gives replay value to the game inspiring the player to retry and beat their last record. We will have the levels randomly generate each time as well to add more randomness to the game.​
 
 # Link of Assets and tutorials
 ## Assets
