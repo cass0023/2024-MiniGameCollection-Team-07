@@ -15,7 +15,8 @@ namespace  MiniGameCollection.Games2024.Team07
         }
         void FixedUpdate()
         {
-            transform.Translate(x * Time.deltaTime * moveSpeed, 0, y * Time.deltaTime * moveSpeed);
+            Vector3 movement = new Vector3(x, 0, y).normalized;
+            transform.Translate (movement * moveSpeed * Time.deltaTime );
         }
     }
 }
