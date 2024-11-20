@@ -12,16 +12,17 @@ public class Interact : MonoBehaviour
     {
         door = this.transform.Find("Door");
     }
-
     private void OnTriggerEnter(Collider collider){
         door.gameObject.SetActive(false);
     }
+    /*
     private void OnTriggerExit(Collider collider){
-        Invoke("SetDoorTrue", 3f);
+        Invoke("SetDoorTrue", 5f);
     }
     void SetDoorTrue(){
         door.gameObject.SetActive(true);
     }
+    */
 }
 }
 
