@@ -7,12 +7,14 @@ namespace MiniGameCollection.Games2024.Team07
     public class LevelManager : MonoBehaviour
     {
         public GameObject[] possibleLevel;
+        public MiniGameManager miniGameManager;
         private GameObject currentLevel;
         private int randomNum;
         // Start is called before the first frame update
         void Start()
         {
             currentLevel = null;
+            miniGameManager.StartGame();
         }
 
         // Update is called once per frame
