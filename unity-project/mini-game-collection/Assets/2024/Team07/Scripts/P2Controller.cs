@@ -6,6 +6,7 @@ namespace  MiniGameCollection.Games2024.Team07
 {
     public class P2Controller : MonoBehaviour
     {
+        //player two movement code -cc
         private float moveSpeed = 5f;
         float y;
         float x;

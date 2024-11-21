@@ -255,12 +255,6 @@ Transform:
   - {fileID: 1645752790}
   m_Father: {fileID: 664962494}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &240972868 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8762687224052728886, guid: 4aefb50d12cecf3459f16b64ef00e3fd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1593906433}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &287602149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9073843769400862040, guid: d803e060dda161f4490cf1feb72adb69,
@@ -535,12 +529,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d803e060dda161f4490cf1feb72adb69, type: 3}
---- !u!1 &664962493 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1419193906554556908, guid: ce66d347d7f27dd41bb9d5a908c0d158,
-    type: 3}
-  m_PrefabInstance: {fileID: 1964125125}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &664962494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2296206681429484423, guid: ce66d347d7f27dd41bb9d5a908c0d158,
@@ -1730,9 +1718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b5c1e664b4bdf84dbb785c3d8893ccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleLevel:
-  - {fileID: 664962493}
-  - {fileID: 240972868}
   p1Controller: {fileID: 1238655783}
   miniGameManager: {fileID: 1626290473}
   winCondition: {fileID: 911106150}
@@ -2638,7 +2623,7 @@ PrefabInstance:
     - target: {fileID: 1419193906554556908, guid: ce66d347d7f27dd41bb9d5a908c0d158,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2296206681429484423, guid: ce66d347d7f27dd41bb9d5a908c0d158,
         type: 3}

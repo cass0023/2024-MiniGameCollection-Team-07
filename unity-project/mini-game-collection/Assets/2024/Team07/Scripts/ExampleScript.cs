@@ -6,16 +6,6 @@ namespace  MiniGameCollection.Games2024.Team07
 {
     public class ExampleScript : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+        //includes name space so script can be copied and just change the script name -cc
     }
 }
