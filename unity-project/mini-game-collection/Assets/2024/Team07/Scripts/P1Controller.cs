@@ -9,6 +9,7 @@ namespace  MiniGameCollection.Games2024.Team07
         public float moveSpeed = 5f;
         float y;
         float x;
+        public bool hasFinished;
         void Update(){
             x = ArcadeInput.Player1.AxisX;
             y = ArcadeInput.Player1.AxisY;
@@ -17,6 +18,11 @@ namespace  MiniGameCollection.Games2024.Team07
         {
             Vector3 movement = new Vector3(x, 0, y).normalized;
             transform.Translate (movement * moveSpeed * Time.deltaTime);
+        }
+        void OnCollisionEnter(Collision collision){
+            if(collision.gameObject.name == "PlayerTwo"){
+                hasFinished = true;
+            }
         }
     }
 }
