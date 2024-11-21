@@ -7,8 +7,10 @@ namespace MiniGameCollection.Games2024.Team07
     public class LevelManager : MonoBehaviour
     {
         //acts as gamemanager in mini-game, randomly generates levels and checks win conditions -cc
+        
         //public GameObject[] possibleLevel;
         public P1Controller p1Controller;
+        public P2Controller p2Controller;
         public MiniGameManager miniGameManager;
         public GameObject winCondition;
         public GameObject failCondition;
@@ -25,12 +27,15 @@ namespace MiniGameCollection.Games2024.Team07
         {
             if(miniGameManager.IsTimerExpired && !p1Controller.hasFinished){
                 failCondition.SetActive(true);
+                StopMovement();
             }
             if(p1Controller.hasFinished){
                winCondition.SetActive(true);
                miniGameManager.StopGame();
+               StopMovement();
             }
-            /*//wasnt able to implement :( -cc
+            /*
+            //wasnt able to implement :( -cc
             if (currentLevel == null){
                 //randomly generates level each time the game opens -cc
                 randomNum = Random.Range(0, possibleLevel.Length);
@@ -38,6 +43,10 @@ namespace MiniGameCollection.Games2024.Team07
                 currentLevel.SetActive(true);
             }
             */
+        }
+        void StopMovement(){
+            p1Controller.gameObject.SetActive(false);
+            p2Controller.gameObject.SetActive(false);
         }
     }
 }
